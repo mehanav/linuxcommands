@@ -1,0 +1,32 @@
+vi commands :
+
+yy3p  copy  
+3 is the no of times you want it to be printed
+p :  : paste
+
+nyyp : Here n represents how many number of lines you want to copy & paste
+
+x : to delete the character in cursor position
+
+Navigation commands :
+
+h : moves cursor to the left (character by character)
+l :  "              "   right (           "         )
+k : moves cursor up
+j : moves cursor down
+G : goes to the end of the file
+0(zero): moves to the beginning of the line
+$ : moves to the end of the line
+
+
+delete:
+dd : deletes the line
+dw : deletes a word
+:%d : deletes the entire editor
+
+
+
+
+:set number : gives numbering to all the contents of the file
+:n : where n is the number. The cursor goes to the that particular numbered line which you gave.
+:set nonumber : removes the numbers of the contents.

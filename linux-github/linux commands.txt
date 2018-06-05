@@ -1,0 +1,119 @@
+linux commands:
+
+/ : root
+~ : tilt (home)
+ctrl c : if you are struck somewhere
+
+ls : list 
+ls -a : list of all hidden files and folders
+ls <foldername> : lists files in a folder
+ls -l : long list along with permissions
+ls -lh : detailed list, human readable
+ls -l*jpg : list jpeg files only
+ls -R : list directories recursively including sub directories 
+ls -S : sorts files according to their sizes
+ls -t : sorts by recently modified file/folder as newest file
+
+
+pwd : print current working directory 
+cp : copy and rename a file
+cat : displays contents of a file 
+
+echo : It displays the text
+env : 
+PATH : absolute: gives the complete path from the root
+
+       relative: gives the path from current directory
+	   eg: if you the relative path for clam, it just display from the before directory/file.
+	   
+
+rm :(remove) it is used to delete files
+rm -r : used to remove directories
+rmdir : used to delete empty directories
+
+mv : used to move & rename files/directories
+mkdir : create directory
+chmod : used to change permissions of files & directories
+chown : used to change ownership of files & directories
+chgrp : used to change group ownership of a file/files
+
+user,group,others.
+read - 4 (r)
+write - 2 (w)
+execute - 1 (x)
+
+
+
+cd : change directory / home directory
+cd . : current directory
+cd .. : moves to the previous directory (parent directory)
+cd - : takes you to the path where you left off
+
+
+find   : searches files on your system. Slower but is always up-to-date and has more options
+locate : searches files on your system. Faster but uses an older database and searches only names or parts of them
+
+grep   : global regular expression print. Prints any lines which match a specified pattern.
+eg: $grep "our products"  product-listing.html 
+            if you want to search a single file, then you gotta mention the file name as above (product-listing) and in which format you want to search in.
+grep --color "our products"		if you want your o/p to be highlighted	
+
+pipe   : joins two commands 
+who    : prints information about all the users who are currently logged in 
+whoami : displays the name of the user who runs the command
+which  : locates a command
+sudo : root privileges 
+su : switch user
+head : from the top,  -n : number of lines (head -n)
+tail : from the bottom,   "  (tail -n)
+
+mv : move 
+mv <foldername>/ .. : move folder up in hierarchy
+
+
+export path & path
+
+du : disk usage (disk space used by files)
+df : amount of disk space available
+
+compgen : to know the users
+apt-get : to install a software in ubuntu
+dpkg : a tool to install/build/remove/manage packages & -i specifies to install .deb files
+
+
+ways to create empty file:-
+
+touch filename
+> filename
+echo -n > filename
+printf '' > filename
+
+
+if you are in a subdirectory and wants to display the files in home:
+ls ~   or ls /home/mehana (path of home)
+
+>  : overrides the existing data and displays the newly added data
+>> : adds the data to the file
+eg: echo "hello mehana" >> test1
+
+
+
+create a dir : mkdir mehana
+
+when you need to create a sub directory in it : mkdir mehana/vydana
+
+grep , egrep, fgrep, rgrep - print lines matching a pattern
+
+sudo groupmod -n new name old name : to change into a new groupname
+
+ping
+
+netstat : 
+-t : tcp
+-u : udp
+-l : shows only active sockets
+
+sudo useradd: to add a user
+
+
+
